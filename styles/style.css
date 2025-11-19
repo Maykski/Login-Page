@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 :root {
     --cor-principal: #14723e8e ;
     --cor-font: #fff;
@@ -21,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../assets/Background.jpg');
+    background: url('../client/public/assets/img/Background.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -127,4 +128,8 @@ body {
 
 .register-link a:hover {
     text-decoration: underline;
+}
+
+.hidden {
+    display: none;
 }
